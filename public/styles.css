@@ -1,0 +1,99 @@
+body {
+	width: 3000px;
+}
+
+h2, h4 {
+	margin: 0;
+}
+
+h4 {
+	font-weight: normal;
+
+}
+
+p {
+	margin: 0;
+}
+
+.board {
+	float: left;
+	width: 250px;
+	margin: 5px;
+	padding: 10px;
+	background-color: lightgrey;
+	border-radius: 3px;
+	overflow-x: scroll;
+}
+
+.board-top {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #B9B9B9;
+}
+
+.board-top h2 {
+	display: inline-block;
+	width: 90%;
+	vertical-align: middle;
+}
+
+.remove-board {
+	display: inline-block;
+	width: 10%;
+	background: #fff;
+	border: none;
+	border-radius: 3px;
+	vertical-align: middle;
+}
+
+.card {
+	position: relative;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 3px;
+}
+
+.card p {
+	padding-top: 10px;
+	font-size: 14px;
+	text-align: right;
+}
+
+.add-new-card {
+	padding-top: 20px;
+	text-align: right;
+}
+
+.add-new {
+	padding-top: 10px;
+}
+
+.add-new input {
+	width: 60%;
+	margin-right: 4%;
+	border-radius: 3px;
+	vertical-align: middle;
+	border: none;
+	border-radius: 3px;
+}
+
+.add-new button {
+	width: 25%;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 3px;
+	border: none;
+	background: #fff;
+}
+
+.remove-card {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.accent {
+	color: purple;
+	font-weight: bold;
+}
