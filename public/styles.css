@@ -23,6 +23,7 @@ p {
 	background-color: lightgrey;
 	border-radius: 3px;
 	overflow-x: scroll;
+	padding-bottom: 100px;
 }
 
 .board-top {
